@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-family: 'Orelega One', cursive;
+}
+
+#blue {
+    background-color: #264653;
+}
+#green{
+    background-color: #2a9d8f;
+}
+#yellow {
+    background-color: #e9c46a;
+}
+#orange{
+    background-color: #f4a261;
+}
+#red{
+    background-color: #e76f51;
+}
+
+table{
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+
+td{
+    height: 400px;
+    border: 6px solid white;
+}

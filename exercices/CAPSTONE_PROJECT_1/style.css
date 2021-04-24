@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: darkblue;
+    border: 50px solid lightblue;
+    margin: 0 0 0 0;
+    
+}
+
+p{
+    width: 50%;
+    margin: auto;
+    border: 30px solid darkblue;
+}
+
+input{
+    display:block;
+    margin: auto;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+#button{
+    background-color: orange;
+    height: 100px;
+    color: darkblue;
+    border-radius: 20%;;
+}
