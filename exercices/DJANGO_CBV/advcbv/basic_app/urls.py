@@ -1,9 +1,9 @@
 from django.urls import path
-from basic_app import views
+from . import views
 
 app_name = 'basic_app'
 
 urlpatterns = [
     path('', views.SchoolListView.as_view(),name='list'),
-    path(r'^(?P<pk>[-\w]+)/$', views.SchoolListView.as_view(), name='detail')
+    path('<int:pk>/', views.SchoolListView.as_view(), name='detail')
 ]
